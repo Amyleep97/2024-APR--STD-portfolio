@@ -6,6 +6,10 @@
 
 body{
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header{
@@ -23,7 +27,7 @@ header{
 }
 
 .coder-text {
-    color: rgb(60, 37, 231);
+    color: rgb(25, 8, 156);
 }
 
 .academy-text {
@@ -40,4 +44,28 @@ header{
 
 #nav-items a {
     text-decoration: none;
+    color: rgb(25, 8, 156);
+}
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.social-media a i {
+    font-size: 30px;
+    color: black;
+}
+.info {
+    color: black;
+}
+
+.info p {
+    margin-bottom: 5px 0;
+    font-size: 18;
 }
