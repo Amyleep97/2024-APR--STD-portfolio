@@ -46,6 +46,20 @@ header{
     text-decoration: none;
     color: rgb(25, 8, 156);
 }
+
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;            
+}
+.name {
+    margin-bottom: 0;
+}
+#nav-items {
+    width: 50%;
+}
+
 footer {
     background-color: var(--primary-color);
     text-align: center;
