@@ -27,7 +27,7 @@ header{
 }
 
 .coder-text {
-    color: rgb(25, 8, 156);
+    color: #d7dbeb;
 }
 
 .academy-text {
@@ -44,7 +44,7 @@ header{
 
 #nav-items a {
     text-decoration: none;
-    color: rgb(25, 8, 156);
+    color: rgb(0, 0, 3);
 }
 
 footer {
