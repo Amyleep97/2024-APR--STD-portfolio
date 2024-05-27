@@ -1,5 +1,68 @@
 main {
     display: flex;
     justify-content: center;
+    margin-bottom: 24px;
+}
+.form-elements {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+
+}
+.form-elements label {
+    font-size: 18px;
+
+}
+
+.form-input {
+    border: 1px solid var(--primary-color);
+    outline: none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.form-input:not(.form-textarea) {
+    height: 35px;
+
+}
+.form-textarea {
+    resize: none;
+}
+
+.form-input:focus {
+    box-shadow: 1px 2px 13px 8px #8B9EE1;
+}
+
+.btn-div {
+
+
+}
+
+#Submit {
+    height: 40px;
+    background-color: #8B9EE1;
+    border-radius: 4px;
+    min-width: 120px;
+    color: rgb(3, 0, 0);
+}
+#Submit:hover {
+    cursor: pointer;
+    background-color: #7c8aac;
     
 }
+@media screen and (min-width: 600px) {
+    form {
+        width: 500px;
+
+    }
+    .form-elements {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .form-input {
+        width: 70%;
+    }
+
+}
+    
